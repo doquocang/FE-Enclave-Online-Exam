@@ -1,9 +1,10 @@
 import axios from "axios";
 import { toast } from "react-toastify";
-axios.defaults.timeout = 15 * 1000;
+axios.defaults.timeout = 10 * 1000;
 
 const instance = axios.create({
-  baseURL: "http://172.16.75.32:8080",
+  // baseURL: "http://172.16.75.32:8080",
+  baseURL: "http://172.16.75.37:8080/",
   // baseURL: "https://dummyjson.com",3
 });
 

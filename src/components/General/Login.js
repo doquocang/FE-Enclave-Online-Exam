@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useContext } from "react";
-import { loginApi } from "../services/UserService";
+import { loginApi } from "../../services/UserService";
 import { toast } from "react-toastify";
 import axios from "axios";
 import "react-toastify/dist/ReactToastify.min.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import { useNavigate } from "react-router-dom";
 
-import { UserContext } from "../context/UserContext";
+import { UserContext } from "../../context/UserContext";
 
 const Login = () => {
   const { loginContext } = useContext(UserContext);
@@ -35,19 +35,20 @@ const Login = () => {
 
   const handleLogin = async () => {
     if (!username || !password) {
-      toast.error("Password is required!!!");
+      toast.error("Password is required!!!"); //move this string to constant
       return;
     }
     setLoadingAPI(true);
     try {
       let res = await loginApi(username, password);
-      console.log("check login: ", res);
+      // console.log("check login: ", res); (recommend log ra file)
       if (res && res.code === 1000) {
+        // move to number in constant
         loginContext(username, res.result.token);
         navigate("/");
         toast(res.message);
       } else if (res && res.code === 1006) {
-        toast.error("Wrong username or password");
+        toast.error("Wrong username or password"); //this string also
       } else {
         toast.error("Server connection error!");
       }

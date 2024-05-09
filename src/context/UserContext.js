@@ -14,6 +14,7 @@ const UserProvider = ({ children }) => {
       auth: true,
     }));
     localStorage.setItem("token", token);
+    localStorage.setItem("username", username);
   };
 
   const logout = () => {
@@ -31,4 +32,4 @@ const UserProvider = ({ children }) => {
   );
 };
 
-export {UserContext, UserProvider}
+export { UserContext, UserProvider };

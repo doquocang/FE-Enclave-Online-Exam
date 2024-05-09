@@ -18,7 +18,7 @@ const StudyPage = (props) => {
       <div className="App">
         <h1>Audio Streaming Example</h1>
         <audio controls>
-          <source src="https://vgmsite.com/soundtracks/duck-tales/skpzluagjv/07%20Moon%20Surface%20%28The%20Moon%29.mp3" type="audio/mpeg" />
+          <source src="https://d6cp9b00-a.akamaihd.net/downloads/ringtones/files/mp3/super-mario-bros-4293.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
       </div>

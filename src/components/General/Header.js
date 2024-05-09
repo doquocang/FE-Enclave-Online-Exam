@@ -5,11 +5,11 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { NavLink, useNavigate } from "react-router-dom";
-import { logoutApi } from "../services/UserService";
+import { logoutApi } from "../../services/UserService";
 import { toast } from "react-toastify";
 import { useEffect, useState } from "react";
 
-import { UserContext } from "../context/UserContext";
+import { UserContext } from "../../context/UserContext";
 import { useContext } from "react";
 
 function Header() {
@@ -32,12 +32,13 @@ function Header() {
     logoutApi(localStorage.getItem("token"));
     logout();
     navigate("/login");
-    toast.success("Log out successfully!");
+    toast.success("Log out successfully!"); //move to constant
   };
 
   const handleDropdownOpen = (dropdown) => {
     clearTimeout(timeoutId);
     if (dropdown === "choices") {
+      // avoid using string, use number instead, if keep using string, have to move to constant
       setIsDropdownOpen(true);
     } else if (dropdown === "setting") {
       setIsSettingOpen(true);
@@ -51,7 +52,7 @@ function Header() {
       } else if (dropdown === "setting") {
         setIsSettingOpen(false);
       }
-    }, 200); // Đặt thời gian trễ 200ms
+    }, 200); // Đặt thời gian trễ 200ms // ,move 200 to
   };
 
   const handleClearTimeout = () => {
@@ -69,11 +70,11 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Item>
-              {user && !user.auth &&
+              {user && !user.auth && (
                 <NavLink to="/login" className="nav-link">
                   Login
                 </NavLink>
-              }
+              )}
             </Nav.Item>
             <Nav.Link href="#link">Link</Nav.Link>
 
@@ -88,7 +89,7 @@ function Header() {
               >
                 <NavLink
                   onClick={() => setIsDropdownOpen(false)}
-                  to="/study"
+                  to="/user/study"
                   className="dropdown-item"
                 >
                   Your study
