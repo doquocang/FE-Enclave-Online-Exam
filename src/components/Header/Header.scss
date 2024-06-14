@@ -1,0 +1,19 @@
+.header-container {
+  .navbar-brand {
+    color: #548f11;
+  }
+  .navbar-nav {
+    .nav-link {
+      &.active {
+        color: #548f11;
+      }
+      &.show {
+        color: #548f11;
+      }
+    }
+  }
+  .navbar-header-text {
+    font-weight: 600;
+    color: #548f11;
+  }
+}

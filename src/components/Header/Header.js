@@ -12,6 +12,8 @@ import { useEffect, useState } from "react";
 import { UserContext } from "../../context/UserContext";
 import { useContext } from "react";
 
+import "./Header.scss"
+
 function Header() {
   const { logout, user } = useContext(UserContext);
 
@@ -94,11 +96,17 @@ function Header() {
                 >
                   Your study
                 </NavLink>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
+
+                <NavLink
+                  onClick={() => setIsDropdownOpen(false)}
+                  to="/user/practice"
+                  className="dropdown-item"
+                >
+                  Your Practice
+                </NavLink>
+
                 <NavDropdown.Item href="#action/3.3">
-                  Something
+                  Something123
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">

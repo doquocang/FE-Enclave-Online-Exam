@@ -1,0 +1,58 @@
+{
+  "code": 1000,
+  "message": "Success",
+  "result": [
+    {
+      "SubjectId": 217,
+      "SubjectName": "English",
+      "Children": [
+        {
+          "CategoryId": 260,
+          "CategoryName": "TOEIC Test",
+          "Children": [
+            {
+              "MainSectionId": 183,
+              "MainSectionName": "TOEIC 1",
+              "Children": [
+                {
+                  "SubSectionId": 258,
+                  "SubSectionName": "Small Talk"
+                }
+              ]
+            },
+            {
+              "MainSectionId": 184,
+              "MainSectionName": "TOEIC 2",
+              "Children": [
+                {
+                  "SubSectionId": 265,
+                  "SubSectionName": "Small Talk"
+                }
+              ]
+            },
+            {
+              "MainSectionId": 213,
+              "MainSectionName": "TOEIC Exam",
+              "Children": [
+                {
+                  "SubSectionId": 298,
+                  "SubSectionName": "Short Talks"
+                }
+              ]
+            },
+            {
+              "MainSectionId": 214,
+              "MainSectionName": "TOEIC Exam Nov",
+              "Children": [
+                {
+                  "SubSectionId": 304,
+                  "SubSectionName": "Short Talks"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

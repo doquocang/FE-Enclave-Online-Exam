@@ -2,11 +2,11 @@ import React from "react";
 
 // @function  UserContext
 const UserContext = React.createContext({ username: "", auth: false });
-
 // @function  UserProvider
 // Create function to provide UserContext
 const UserProvider = ({ children }) => {
-  const [user, setUser] = React.useState({ username: "", auth: false });
+  const [user, setUser] = React.useState({ username: "", auth: (localStorage.getItem("token")) ? true :false });
+
 
   const loginContext = (username, token) => {
     setUser((user) => ({
@@ -19,6 +19,7 @@ const UserProvider = ({ children }) => {
 
   const logout = () => {
     localStorage.removeItem("token");
+    localStorage.removeItem("username");
     setUser((user) => ({
       username: "",
       auth: false,

@@ -1,10 +1,9 @@
 import logo from "./logo.svg";
 import "./styles/App.scss";
-import "./styles/Footer.scss";
 
-import Header from "./components/General/Header";
-import Login from "./components/General/Login";
-import Footer from "./components/General/Footer";
+import Header from "./components/Header/Header";
+import Login from "./components/Login/Login";
+import Footer from "./components/Footer/Footer";
 
 import { ToastContainer } from "react-toastify";
 import { Outlet } from "react-router-dom";
@@ -48,12 +47,10 @@ function App() {
           <Header />
         </div>
         {/* MAIN */}
-        <Container>
-          <div className="main-container">
-            <div className="sideNav-container"></div>
-            <div className="app-content">
-              <Outlet />
-            </div>
+        <Container className="main-container">
+          <div className="sideNav-container"></div>
+          <div className="app-content">
+            <Outlet />
           </div>
         </Container>
         {/* FOOTER */}

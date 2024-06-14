@@ -1,28 +1,31 @@
-import React from "react";
-import ReactPlayer from "react-player";
+import { Layout } from "antd";
 
-const StudyPage = (props) => {
+import "./StudyPage.scss";
+import StudyListIcon from "./StudyListIcon";
+import StudyList from "./StudyList";
+import Search from "antd/es/transfer/search";
+
+import "./StudyPage.scss";
+import SearchBox from "./SearchBox";
+
+const { Header, Sider, Content } = Layout;
+
+const StudyPage = () => {
   return (
-    <>
-      <div>Study Page</div>
-      {/* <div className="App">
-        <h1>Audio Streaming Example</h1>
-        <ReactPlayer
-          url="https://file-examples.com/storage/fe4996602366316ffa06467/2017/11/file_example_MP3_5MG.mp3"
-          controls={true}
-          width="100%"
-          height="auto"
-          playing={true}
-        />
-      </div> */}
-      <div className="App">
-        <h1>Audio Streaming Example</h1>
-        <audio controls>
-          <source src="https://d6cp9b00-a.akamaihd.net/downloads/ringtones/files/mp3/super-mario-bros-4293.mp3" type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </>
+    <Layout>
+      {/* sider-study-list */}
+      <Sider className="siderbar" theme="light">
+        <StudyListIcon />
+        <div className="sidebar-header">Studying</div>
+        <StudyList />
+      </Sider>
+      {/* main-content */}
+      <Content className="main-content">
+        <div className="main-content-header">Learn to Code, English</div>
+        <SearchBox className="search-box"/> 
+        <div className="main-content-footer"> We engineer our clients' successes!</div>
+      </Content>
+    </Layout>
   );
 };
 

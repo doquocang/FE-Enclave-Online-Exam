@@ -8,6 +8,8 @@ import { useNavigate } from "react-router-dom";
 
 import { UserContext } from "../../context/UserContext";
 
+import "./Login.scss"
+
 const Login = () => {
   const { loginContext } = useContext(UserContext);
 
@@ -22,6 +24,7 @@ const Login = () => {
     let token = localStorage.getItem("token");
     if (token) {
       //move user to home page, if the token is exist already
+      toast.info("You have logged in already!")
       navigate("/");
     }
   }, []);
