@@ -65,7 +65,7 @@ function Header() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <NavLink to="/" className="navbar-brand">
-          Enclave English Exam
+          Enclave Online Exam
         </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
@@ -92,7 +92,7 @@ function Header() {
                 <NavLink
                   onClick={() => setIsDropdownOpen(false)}
                   to="/user/study"
-                  className="dropdown-item"
+                  className="dropdown-item custom-dropdown-item"
                 >
                   Your study
                 </NavLink>
@@ -100,7 +100,7 @@ function Header() {
                 <NavLink
                   onClick={() => setIsDropdownOpen(false)}
                   to="/user/practice"
-                  className="dropdown-item"
+                  className="dropdown-item custom-dropdown-item"
                 >
                   Your Practice
                 </NavLink>

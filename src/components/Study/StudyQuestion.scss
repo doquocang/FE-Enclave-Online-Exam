@@ -1,0 +1,70 @@
+@import "../../styles/variables.scss";
+
+.study-questions {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 20vh;
+  .study-questions-lesson {
+    padding-top: 3vh;
+    font-size: 1.35em;
+
+    @media (max-width: 900px) {
+      font-size: 1.1em;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 0.8em;
+    }
+  }
+  .study-question-container {
+    padding-bottom: 5vh;
+    .study-question-main-nor-url {
+      padding-bottom: 4vh;
+    }
+    .study-question-direction {
+      font-style: italic;
+      padding-bottom: 2vh;
+    }
+    .study-question-content {
+      .study-question-wrapper {
+        width: 95%;
+        height: auto;
+        .study-question-quiz {
+          .study-question-quiz-titles {
+            white-space: normal;
+            padding-top: 2vh;
+            font-size: 0.8rem;
+          }
+          .study-question-quiz-answers-wrapper {
+            .study-question-quiz-answers {
+              width: 95%;
+              height: auto;
+              padding-top: 2vh;
+              padding-bottom: 2vh;
+              .study-question-quiz-answers-content {
+                width: 100%;
+                text-align: left;
+                white-space: normal;
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .study-question-pagination {
+    .ant-pagination-item {
+      font-size: 1em;
+      transform: scale(1);
+    }
+
+    @media (max-width: 900px) {
+      transform: scale(0.9);
+    }
+
+    @media (max-width: 600px) {
+      transform: scale(0.7);
+    }
+  }
+}

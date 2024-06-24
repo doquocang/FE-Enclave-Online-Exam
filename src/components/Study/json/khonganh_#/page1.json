@@ -1,0 +1,390 @@
+{
+  "code": 1000,
+  "message": "Success",
+  "result": [
+      {
+          "QuestionId": 9300,
+          "MainQuestionId": 779,
+          "MainQuestionContent": "<P>Directions: In Questions 141-160, each sentence has four words or phrases underlined. The four underlined parts of the sentence are marked (A), (B), (C), (D). You are to identify the one underlined word or phrase that should be corrected or rewritten. Then, on your answer sheet, find the number of the question and mark your answer. </P>",
+          "MainQuestionUrl": null,
+          "SubQuestionId": 8356,
+          "SubQuestionContent": "Number 142 - We (A)<U>appreciate</U> it your (B)<U>interest in</U> our company and look",
+          "SubQuestionUrl": null,
+          "NormalQuestionId": null,
+          "NormalQuestionContent": null,
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 33007
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33008
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33009
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33010
+              }
+          ]
+      },
+      {
+          "QuestionId": 9300,
+          "MainQuestionId": 779,
+          "MainQuestionContent": "<P>Directions: In Questions 141-160, each sentence has four words or phrases underlined. The four underlined parts of the sentence are marked (A), (B), (C), (D). You are to identify the one underlined word or phrase that should be corrected or rewritten. Then, on your answer sheet, find the number of the question and mark your answer. </P>",
+          "MainQuestionUrl": null,
+          "SubQuestionId": 8370,
+          "SubQuestionContent": "Number 156 - (A)<U>Without</U> we receive a definite commitment (B) <U>by</U> the end of the month, we will be forced (C) <U>to reconsider</U> (D)<U>our</U> original (D)proposal.",
+          "SubQuestionUrl": null,
+          "NormalQuestionId": null,
+          "NormalQuestionContent": null,
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 33063
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33064
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33065
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33066
+              }
+          ]
+      },
+      {
+          "QuestionId": 9300,
+          "MainQuestionId": 779,
+          "MainQuestionContent": "<P>Directions: In Questions 141-160, each sentence has four words or phrases underlined. The four underlined parts of the sentence are marked (A), (B), (C), (D). You are to identify the one underlined word or phrase that should be corrected or rewritten. Then, on your answer sheet, find the number of the question and mark your answer. </P>",
+          "MainQuestionUrl": null,
+          "SubQuestionId": 8368,
+          "SubQuestionContent": "Number 154 - (A)<U>At</U> our company meeting the marketing",
+          "SubQuestionUrl": null,
+          "NormalQuestionId": null,
+          "NormalQuestionContent": null,
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33055
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33056
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 33057
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33058
+              }
+          ]
+      },
+      {
+          "QuestionId": 9300,
+          "MainQuestionId": 779,
+          "MainQuestionContent": "<P>Directions: In Questions 141-160, each sentence has four words or phrases underlined. The four underlined parts of the sentence are marked (A), (B), (C), (D). You are to identify the one underlined word or phrase that should be corrected or rewritten. Then, on your answer sheet, find the number of the question and mark your answer. </P>",
+          "MainQuestionUrl": null,
+          "SubQuestionId": 8358,
+          "SubQuestionContent": "Number 144 - (A)<U>Each</U> banking transaction (B)<U>were handled</U> quickly and (C)<U>efficiently</U> (D)<U>by</U> well-trained",
+          "SubQuestionUrl": null,
+          "NormalQuestionId": null,
+          "NormalQuestionContent": null,
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33015
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 33016
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33017
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33018
+              }
+          ]
+      },
+      {
+          "QuestionId": 9300,
+          "MainQuestionId": 779,
+          "MainQuestionContent": "<P>Directions: In Questions 141-160, each sentence has four words or phrases underlined. The four underlined parts of the sentence are marked (A), (B), (C), (D). You are to identify the one underlined word or phrase that should be corrected or rewritten. Then, on your answer sheet, find the number of the question and mark your answer. </P>",
+          "MainQuestionUrl": null,
+          "SubQuestionId": 8357,
+          "SubQuestionContent": "Number 143 - In the event (A) <U>for</U> any changes need (B) <U>to be made</U> in the (C )<U>document</U>, please call our office (D)<U>immediately</U>.",
+          "SubQuestionUrl": null,
+          "NormalQuestionId": null,
+          "NormalQuestionContent": null,
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 33011
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33012
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33013
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33014
+              }
+          ]
+      },
+      {
+          "QuestionId": 9300,
+          "MainQuestionId": 779,
+          "MainQuestionContent": "<P>Directions: In Questions 141-160, each sentence has four words or phrases underlined. The four underlined parts of the sentence are marked (A), (B), (C), (D). You are to identify the one underlined word or phrase that should be corrected or rewritten. Then, on your answer sheet, find the number of the question and mark your answer. </P>",
+          "MainQuestionUrl": null,
+          "SubQuestionId": 8361,
+          "SubQuestionContent": "Number 146 - Bennett International (A) <U>has decided</U> to expand (B) <U>its borrowing</U> to make up (C ) <U>with</U> a decline (D) <U>in</U> investment returns.",
+          "SubQuestionUrl": null,
+          "NormalQuestionId": null,
+          "NormalQuestionContent": null,
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33027
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33028
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 33029
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33030
+              }
+          ]
+      },
+      {
+          "QuestionId": 9300,
+          "MainQuestionId": 779,
+          "MainQuestionContent": "<P>Directions: In Questions 141-160, each sentence has four words or phrases underlined. The four underlined parts of the sentence are marked (A), (B), (C), (D). You are to identify the one underlined word or phrase that should be corrected or rewritten. Then, on your answer sheet, find the number of the question and mark your answer. </P>",
+          "MainQuestionUrl": null,
+          "SubQuestionId": 8360,
+          "SubQuestionContent": "Number 147 - Ms. Rivera (A)<U>is going</U> to write (B)<U>to manager</U> tocomplain (C)<U>about</U> the poor service she received during (D)<U> her stay</U> at the hotel.",
+          "SubQuestionUrl": null,
+          "NormalQuestionId": null,
+          "NormalQuestionContent": null,
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33023
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 33024
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33025
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33026
+              }
+          ]
+      },
+      {
+          "QuestionId": 9300,
+          "MainQuestionId": 779,
+          "MainQuestionContent": "<P>Directions: In Questions 141-160, each sentence has four words or phrases underlined. The four underlined parts of the sentence are marked (A), (B), (C), (D). You are to identify the one underlined word or phrase that should be corrected or rewritten. Then, on your answer sheet, find the number of the question and mark your answer. </P>",
+          "MainQuestionUrl": null,
+          "SubQuestionId": 8359,
+          "SubQuestionContent": "Number 145 - We recommend that you follow the (A)<U>formatted</U> (B)<U>shown</U> in this sample when ( C) <U>preparing</U> announcements to be (D) <U>displayed</U> on the bullentin board.",
+          "SubQuestionUrl": null,
+          "NormalQuestionId": null,
+          "NormalQuestionContent": null,
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 33019
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33020
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33021
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33022
+              }
+          ]
+      },
+      {
+          "QuestionId": 9300,
+          "MainQuestionId": 779,
+          "MainQuestionContent": "<P>Directions: In Questions 141-160, each sentence has four words or phrases underlined. The four underlined parts of the sentence are marked (A), (B), (C), (D). You are to identify the one underlined word or phrase that should be corrected or rewritten. Then, on your answer sheet, find the number of the question and mark your answer. </P>",
+          "MainQuestionUrl": null,
+          "SubQuestionId": 8374,
+          "SubQuestionContent": "Number 160 - (A)<U>Travel club</U> application forms (B)<U>can find</U> (C) <U>in front of</U>",
+          "SubQuestionUrl": null,
+          "NormalQuestionId": null,
+          "NormalQuestionContent": null,
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33079
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 33080
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33081
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33082
+              }
+          ]
+      },
+      {
+          "QuestionId": 9300,
+          "MainQuestionId": 779,
+          "MainQuestionContent": "<P>Directions: In Questions 141-160, each sentence has four words or phrases underlined. The four underlined parts of the sentence are marked (A), (B), (C), (D). You are to identify the one underlined word or phrase that should be corrected or rewritten. Then, on your answer sheet, find the number of the question and mark your answer. </P>",
+          "MainQuestionUrl": null,
+          "SubQuestionId": 8372,
+          "SubQuestionContent": "Number 158 - For (A)<U>each</U> workshop, you (B)<U>must register</U> and (C)pay <U>prior to</U> the date on which the conference (D)<U>begin</U>.",
+          "SubQuestionUrl": null,
+          "NormalQuestionId": null,
+          "NormalQuestionContent": null,
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33071
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33072
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 33073
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 33074
+              }
+          ]
+      }
+  ],
+  "pagination": {
+      "TotalQuestions": 20,
+      "TotalPages": 2
+  }
+}

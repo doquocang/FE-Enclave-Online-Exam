@@ -1,6 +1,8 @@
 @import "../../styles/_variables";
 
 .siderbar {
+  border: 1px solid $enclave_green;
+
   .study-list-logo {
     display: flex;
     align-items: center;
@@ -28,11 +30,10 @@
     transform: translateY(15px);
     font-size: large;
     background-color: $enclave_green;
-    padding: 10px 0;
+    padding: 10px 0;;
   }
 
   .menu-bar {
-    height: 100vh;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -47,20 +48,21 @@
   overflow-y: auto;
 }
 
-.main-content {
+.search-content {
   background-image: url(../../assets/Image/background_in_space.gif);
   display: flex;
   align-items: center;
   flex-direction: column;
   font-weight: bold;
   padding-top: 15vh;
+  height: 100vh;
 
-  .main-content-header {
+  .search-content-header {
     color: $enclave_white;
     font-size: 3.5rem;
     margin-bottom: 3rem;
   }
-  .main-content-footer {
+  .search-content-footer {
     color: $enclave_white;
     font-size: 1.25rem;
     margin-top: 1.5rem;
@@ -77,4 +79,8 @@
       }
     }
   }
+}
+
+.question-content {
+  background-color: $enclave_white_light;
 }

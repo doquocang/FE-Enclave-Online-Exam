@@ -1,0 +1,390 @@
+{
+  "code": 1000,
+  "message": "Success",
+  "result": [
+    {
+      "QuestionId": 8715,
+      "MainQuestionId": null,
+      "MainQuestionContent": null,
+      "MainQuestionUrl": null,
+      "SubQuestionId": null,
+      "SubQuestionContent": null,
+      "SubQuestionUrl": null,
+      "NormalQuestionId": 8187,
+      "NormalQuestionContent": "Until the ninth century, written words were not actually separated, .............. in some literary writing, dots or points were used to indicate divisions.",
+      "NormalQuestionUrl": null,
+      "Answers": [
+        {
+          "AnswerContent": "in spite of",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23536
+        },
+        {
+          "AnswerContent": "contrary  ",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23537
+        },
+        {
+          "AnswerContent": "contrast ",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23538
+        },
+        {
+          "AnswerContent": "but",
+          "CorrectAnswer": true,
+          "Explanation": null,
+          "AnswerId": 23539
+        }
+      ]
+    },
+    {
+      "QuestionId": 8721,
+      "MainQuestionId": null,
+      "MainQuestionContent": null,
+      "MainQuestionUrl": null,
+      "SubQuestionId": null,
+      "SubQuestionContent": null,
+      "SubQuestionUrl": null,
+      "NormalQuestionId": 8193,
+      "NormalQuestionContent": "(A)<U>Many of the satellites</U> of space carry telescopes and other instruments (B)<U>used in</U> (C)<U>astronomy to</U> (D)<U>look at the stars</U>.",
+      "NormalQuestionUrl": null,
+      "Answers": [
+        {
+          "AnswerContent": "A",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23560
+        },
+        {
+          "AnswerContent": "B",
+          "CorrectAnswer": true,
+          "Explanation": null,
+          "AnswerId": 23561
+        },
+        {
+          "AnswerContent": "C",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23562
+        },
+        {
+          "AnswerContent": "D",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23563
+        }
+      ]
+    },
+    {
+      "QuestionId": 8388,
+      "MainQuestionId": null,
+      "MainQuestionContent": null,
+      "MainQuestionUrl": null,
+      "SubQuestionId": null,
+      "SubQuestionContent": null,
+      "SubQuestionUrl": null,
+      "NormalQuestionId": 7860,
+      "NormalQuestionContent": "(A) <U>Slightly</U> over (B)<U>half</U> of the (C)<U>population</U> of El Paso, Texas, (D)<U>says</U> both English and spanish.",
+      "NormalQuestionUrl": null,
+      "Answers": [
+        {
+          "AnswerContent": "A",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 22226
+        },
+        {
+          "AnswerContent": "B",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 22227
+        },
+        {
+          "AnswerContent": "C",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 22228
+        },
+        {
+          "AnswerContent": "D",
+          "CorrectAnswer": true,
+          "Explanation": null,
+          "AnswerId": 22229
+        }
+      ]
+    },
+    {
+      "QuestionId": 8633,
+      "MainQuestionId": null,
+      "MainQuestionContent": null,
+      "MainQuestionUrl": null,
+      "SubQuestionId": null,
+      "SubQuestionContent": null,
+      "SubQuestionUrl": null,
+      "NormalQuestionId": 8105,
+      "NormalQuestionContent": "In the attempt to control inflation(A) <U>by</U> eliminating social programs,(B) <U>there are</U> ethical limits beyond (C)<U>where</U> many economists and politicians are reluctant (D)<U>to go</U>.",
+      "NormalQuestionUrl": null,
+      "Answers": [
+        {
+          "AnswerContent": "A",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23208
+        },
+        {
+          "AnswerContent": "B",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23209
+        },
+        {
+          "AnswerContent": "C",
+          "CorrectAnswer": true,
+          "Explanation": null,
+          "AnswerId": 23210
+        },
+        {
+          "AnswerContent": "D",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23211
+        }
+      ]
+    },
+    {
+      "QuestionId": 9015,
+      "MainQuestionId": null,
+      "MainQuestionContent": null,
+      "MainQuestionUrl": null,
+      "SubQuestionId": null,
+      "SubQuestionContent": null,
+      "SubQuestionUrl": null,
+      "NormalQuestionId": 8487,
+      "NormalQuestionContent": "_____________ in 1776 that the declaration of independence was signed.",
+      "NormalQuestionUrl": null,
+      "Answers": [
+        {
+          "AnswerContent": "It was     ",
+          "CorrectAnswer": true,
+          "Explanation": null,
+          "AnswerId": 24736
+        },
+        {
+          "AnswerContent": "There was   ",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 24737
+        },
+        {
+          "AnswerContent": "There              ",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 24738
+        },
+        {
+          "AnswerContent": "It",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 24739
+        }
+      ]
+    },
+    {
+      "QuestionId": 9099,
+      "MainQuestionId": null,
+      "MainQuestionContent": null,
+      "MainQuestionUrl": null,
+      "SubQuestionId": null,
+      "SubQuestionContent": null,
+      "SubQuestionUrl": null,
+      "NormalQuestionId": 8571,
+      "NormalQuestionContent": "(A)<U>In the early days</U> of the united states, (B)<U>postal charges</U> were paid by the recipient, and charges (C)<U>varied</U> with distance (D)<U>carrying</U>.",
+      "NormalQuestionUrl": null,
+      "Answers": [
+        {
+          "AnswerContent": "A",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 25072
+        },
+        {
+          "AnswerContent": "B",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 25073
+        },
+        {
+          "AnswerContent": "C",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 25074
+        },
+        {
+          "AnswerContent": "D",
+          "CorrectAnswer": true,
+          "Explanation": null,
+          "AnswerId": 25075
+        }
+      ]
+    },
+    {
+      "QuestionId": 8969,
+      "MainQuestionId": null,
+      "MainQuestionContent": null,
+      "MainQuestionUrl": null,
+      "SubQuestionId": null,
+      "SubQuestionContent": null,
+      "SubQuestionUrl": null,
+      "NormalQuestionId": 8441,
+      "NormalQuestionContent": "(A)<U>Cotton </U>is one of the (B)<U>most popular</U> (C)<U>fiber</U> used (D)<U>to make</U> clothes.",
+      "NormalQuestionUrl": null,
+      "Answers": [
+        {
+          "AnswerContent": "A",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 24552
+        },
+        {
+          "AnswerContent": "B",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 24553
+        },
+        {
+          "AnswerContent": "C",
+          "CorrectAnswer": true,
+          "Explanation": null,
+          "AnswerId": 24554
+        },
+        {
+          "AnswerContent": "D",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 24555
+        }
+      ]
+    },
+    {
+      "QuestionId": 8773,
+      "MainQuestionId": null,
+      "MainQuestionContent": null,
+      "MainQuestionUrl": null,
+      "SubQuestionId": null,
+      "SubQuestionContent": null,
+      "SubQuestionUrl": null,
+      "NormalQuestionId": 8245,
+      "NormalQuestionContent": "Farmers grow popcorn in much the same way .......... field corn, except that the rows are planted closer together.",
+      "NormalQuestionUrl": null,
+      "Answers": [
+        {
+          "AnswerContent": "that they grow",
+          "CorrectAnswer": true,
+          "Explanation": null,
+          "AnswerId": 23768
+        },
+        {
+          "AnswerContent": "that grow",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23769
+        },
+        {
+          "AnswerContent": "they grow it",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23770
+        },
+        {
+          "AnswerContent": "do they grow",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 23771
+        }
+      ]
+    },
+    {
+      "QuestionId": 8961,
+      "MainQuestionId": null,
+      "MainQuestionContent": null,
+      "MainQuestionUrl": null,
+      "SubQuestionId": null,
+      "SubQuestionContent": null,
+      "SubQuestionUrl": null,
+      "NormalQuestionId": 8433,
+      "NormalQuestionContent": "(A)<U>The marimba</U> (B)<U>is a percussion</U> (C)<U>instrument</U> (D)<U>alike t</U>o xylophone.",
+      "NormalQuestionUrl": null,
+      "Answers": [
+        {
+          "AnswerContent": "A",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 24520
+        },
+        {
+          "AnswerContent": "B",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 24521
+        },
+        {
+          "AnswerContent": "C",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 24522
+        },
+        {
+          "AnswerContent": "D",
+          "CorrectAnswer": true,
+          "Explanation": null,
+          "AnswerId": 24523
+        }
+      ]
+    },
+    {
+      "QuestionId": 9189,
+      "MainQuestionId": null,
+      "MainQuestionContent": null,
+      "MainQuestionUrl": null,
+      "SubQuestionId": null,
+      "SubQuestionContent": null,
+      "SubQuestionUrl": null,
+      "NormalQuestionId": 8661,
+      "NormalQuestionContent": "If Texas (A)<U>joined in</U> (B)<U>the</U> Union, therefore, Northerners felt (C)<U>that</U> American slavery (D)<U>would</U> be extended",
+      "NormalQuestionUrl": null,
+      "Answers": [
+        {
+          "AnswerContent": "A",
+          "CorrectAnswer": true,
+          "Explanation": null,
+          "AnswerId": 25432
+        },
+        {
+          "AnswerContent": "B",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 25433
+        },
+        {
+          "AnswerContent": "C",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 25434
+        },
+        {
+          "AnswerContent": "D",
+          "CorrectAnswer": false,
+          "Explanation": null,
+          "AnswerId": 25435
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "TotalQuestions": 848,
+    "TotalPages": 85
+  }
+}

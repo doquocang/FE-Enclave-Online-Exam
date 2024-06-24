@@ -7,11 +7,16 @@ import response from "./test2.json";
 import responseSearch from "./test.json";
 
 //redux
-import { useSelector } from 'react-redux';
+import { useSelector } from "react-redux";
+
+//routes
+import { Link } from "react-router-dom";
+import queryString from "query-string";
 
 const StudyList = () => {
   const [menuData, setMenuData] = useState([]);
-  const SearchValue = useSelector(state => state.studySearch.value);
+  //using redux
+  const SearchValue = useSelector((state) => state.studySearch.value);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -30,25 +35,27 @@ const StudyList = () => {
       let title;
       let children;
       let key;
+      let id;
       switch (level) {
         case "Subject":
           title = item.SubjectName;
           children = item.Children;
-          key = `SubjectId-${item.SubjectId}`;
+          key = `subjectId-${item.SubjectId}`;
           break;
         case "Category":
           title = item.CategoryName;
           children = item.Children;
-          key = `CategoryId-${item.CategoryId}`;
+          key = `categoryId-${item.CategoryId}`;
           break;
         case "MainSection":
           title = item.MainSectionName;
           children = item.Children;
-          key = `MainSectionId-${item.MainSectionId}`;
+          key = `mainSectionId-${item.MainSectionId}`;
           break;
         case "SubSection":
           title = item.SubSectionName;
-          key = `SubSectionId-${item.SubSectionId}`;
+          key = `subSectionId-${item.SubSectionId}`;
+          id = item.SubSectionId;
           break;
         default:
           title = "";
@@ -61,7 +68,22 @@ const StudyList = () => {
           </Menu.SubMenu>
         );
       }
-      return <Menu.Item key={key}>{title}</Menu.Item>;
+      return (
+        <Menu.Item key={key}>
+          <Link
+            to={`?${queryString.stringify(
+              {
+                subSectionId: id,
+                pageNumber: 1,
+                pageSize: 10,
+              },
+              { sort: false }
+            )}`}
+          >
+            {title}
+          </Link>
+        </Menu.Item>
+      );
     });
   };
 
