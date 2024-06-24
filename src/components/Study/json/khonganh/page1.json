@@ -1,0 +1,390 @@
+{
+    "code": 1000,
+    "message": "Success",
+    "result": [
+        {
+            "QuestionId": 8539,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8011,
+            "NormalQuestionContent": "Mount St. Helens,(A) <U>a</U> volcano (B)<U>in Washington State</U> (C)<U>in the United States</U>, (D)<U>erupted in Mary 18</U>, 1980.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22832
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22833
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22834
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 22835
+                }
+            ]
+        },
+        {
+            "QuestionId": 8425,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 7897,
+            "NormalQuestionContent": "Fossils of (A)<U>plant</U> that have (B)<U>been extinct</U> for (C)<U>fifty million years</U> have been found in large deposits of amber (D)<U>near</U> the Baltic Sea.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 22374
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22375
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22376
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22377
+                }
+            ]
+        },
+        {
+            "QuestionId": 8463,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 7935,
+            "NormalQuestionContent": "Farm animals have been (A)<U>regardless</U> by (B)<U>nearly</U> all societies (C)<U>as</U> a valuable economic (D)<U>resource</U>.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 22526
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22527
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22528
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22529
+                }
+            ]
+        },
+        {
+            "QuestionId": 8960,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8432,
+            "NormalQuestionContent": "Civilization today (A)<U>had depended</U> on woods (B)<U>at great</U> (C)<U>cost</U> to the world's (D)<U>natural resources.</U>",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 24516
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24517
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24518
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24519
+                }
+            ]
+        },
+        {
+            "QuestionId": 8593,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8065,
+            "NormalQuestionContent": "____________often added to sauces and soups, is plentiful and relatively inexpensive.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "Parsely, an herb that is",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 23048
+                },
+                {
+                    "AnswerContent": "For parsely, an herb to be",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23049
+                },
+                {
+                    "AnswerContent": "An herb, parsely is",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23050
+                },
+                {
+                    "AnswerContent": "Parsely, is that herb",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23051
+                }
+            ]
+        },
+        {
+            "QuestionId": 9018,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8490,
+            "NormalQuestionContent": "After the Revolution, although some advances were made in education __________ a slow process.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "they were        ",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24748
+                },
+                {
+                    "AnswerContent": "it             ",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24749
+                },
+                {
+                    "AnswerContent": "it was        ",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 24750
+                },
+                {
+                    "AnswerContent": "there was ",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24751
+                }
+            ]
+        },
+        {
+            "QuestionId": 8496,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 7968,
+            "NormalQuestionContent": "When our neighbor's grandson (A)<U>caught </U>his finger in the car door, he (B)<U>did not cry</U> even though it (C)<U>must have hurted</U> him (D)<U>a great deal</U>.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22658
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22659
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 22660
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22661
+                }
+            ]
+        },
+        {
+            "QuestionId": 8952,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8424,
+            "NormalQuestionContent": "_______ sodium chloride(salt) is not used by sea-living organisms, it forms the dominant mineral in seawater.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "Since",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 24484
+                },
+                {
+                    "AnswerContent": "Although",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24485
+                },
+                {
+                    "AnswerContent": "It is since",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24486
+                },
+                {
+                    "AnswerContent": "Although it",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24487
+                }
+            ]
+        },
+        {
+            "QuestionId": 8769,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8241,
+            "NormalQuestionContent": "Microwave oven thermometers (A)<U>are </U>more (B)<U>cost</U> than (C)<U>other</U> (D)<U>kinds</U> of thermometers.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23752
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 23753
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23754
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23755
+                }
+            ]
+        },
+        {
+            "QuestionId": 8587,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8059,
+            "NormalQuestionContent": "The scientists who are probably mostly interested in flights to the moon are geologists.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23024
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23025
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23026
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 23027
+                }
+            ]
+        }
+    ],
+    "pagination": {
+        "TotalQuestions": 848,
+        "TotalPages": 85
+    }
+}

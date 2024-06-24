@@ -1,0 +1,390 @@
+{
+  "code": 1000,
+  "message": "Success",
+  "result": [
+      {
+          "QuestionId": 9076,
+          "MainQuestionId": null,
+          "MainQuestionContent": null,
+          "MainQuestionUrl": null,
+          "SubQuestionId": null,
+          "SubQuestionContent": null,
+          "SubQuestionUrl": null,
+          "NormalQuestionId": 8548,
+          "NormalQuestionContent": "(A)<U>The first</U> practical investigation into atomic (B)<U>energy</U> was made as (C)<U>part</U> of (D)<U>attempt</U> to explain the source of solar power.",
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24980
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24981
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24982
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 24983
+              }
+          ]
+      },
+      {
+          "QuestionId": 8549,
+          "MainQuestionId": null,
+          "MainQuestionContent": null,
+          "MainQuestionUrl": null,
+          "SubQuestionId": null,
+          "SubQuestionContent": null,
+          "SubQuestionUrl": null,
+          "NormalQuestionId": 8021,
+          "NormalQuestionContent": "(A)<U>Coral reefs</U> are (B)<U>limestone formations</U> composed of (C)<U>tiny sea organisms</U> and (D)<U>the remains</U>.",
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 22872
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 22873
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 22874
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 22875
+              }
+          ]
+      },
+      {
+          "QuestionId": 8594,
+          "MainQuestionId": null,
+          "MainQuestionContent": null,
+          "MainQuestionUrl": null,
+          "SubQuestionId": null,
+          "SubQuestionContent": null,
+          "SubQuestionUrl": null,
+          "NormalQuestionId": 8066,
+          "NormalQuestionContent": "The Grapes of Wrath, a novel about the Depression years of the 1930's, is one of John Steinbecks's ______________books.",
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "most famous ",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 23052
+              },
+              {
+                  "AnswerContent": "the most famous",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 23053
+              },
+              {
+                  "AnswerContent": "are most famous",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 23054
+              },
+              {
+                  "AnswerContent": "and most famous",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 23055
+              }
+          ]
+      },
+      {
+          "QuestionId": 8681,
+          "MainQuestionId": null,
+          "MainQuestionContent": null,
+          "MainQuestionUrl": null,
+          "SubQuestionId": null,
+          "SubQuestionContent": null,
+          "SubQuestionUrl": null,
+          "NormalQuestionId": 8153,
+          "NormalQuestionContent": "(A)<U>An </U>opera combines the (B)<U>excitement</U> of (C)<U>drama</U> and spectacle (D)<U>to</U> the power of music.",
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 23400
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 23401
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 23402
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 23403
+              }
+          ]
+      },
+      {
+          "QuestionId": 8938,
+          "MainQuestionId": null,
+          "MainQuestionContent": null,
+          "MainQuestionUrl": null,
+          "SubQuestionId": null,
+          "SubQuestionContent": null,
+          "SubQuestionUrl": null,
+          "NormalQuestionId": 8410,
+          "NormalQuestionContent": "(A)<U>More </U>ethnic and cultural (B)<U>groups</U> are represented in Hawaii (C)<U>than</U> any other (D)<U>states</U>.",
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24428
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24429
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24430
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 24431
+              }
+          ]
+      },
+      {
+          "QuestionId": 9059,
+          "MainQuestionId": null,
+          "MainQuestionContent": null,
+          "MainQuestionUrl": null,
+          "SubQuestionId": null,
+          "SubQuestionContent": null,
+          "SubQuestionUrl": null,
+          "NormalQuestionId": 8531,
+          "NormalQuestionContent": "M : \" Would you like to visit Los Angeles on your vacation W : \" If I ___________ a week off. \"",
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "have           ",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24912
+              },
+              {
+                  "AnswerContent": "had        ",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 24913
+              },
+              {
+                  "AnswerContent": "have had          ",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24914
+              },
+              {
+                  "AnswerContent": "would have",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24915
+              }
+          ]
+      },
+      {
+          "QuestionId": 9216,
+          "MainQuestionId": null,
+          "MainQuestionContent": null,
+          "MainQuestionUrl": null,
+          "SubQuestionId": null,
+          "SubQuestionContent": null,
+          "SubQuestionUrl": null,
+          "NormalQuestionId": 8688,
+          "NormalQuestionContent": "Scientists stress that the overall warming trend of the last decade holds much more significance .............. single year's temperatures.\n\n",
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": " any do                     ",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 25540
+              },
+              {
+                  "AnswerContent": " than do any",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 25541
+              },
+              {
+                  "AnswerContent": " than any do       ",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 25542
+              },
+              {
+                  "AnswerContent": " do than",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 25543
+              }
+          ]
+      },
+      {
+          "QuestionId": 9050,
+          "MainQuestionId": null,
+          "MainQuestionContent": null,
+          "MainQuestionUrl": null,
+          "SubQuestionId": null,
+          "SubQuestionContent": null,
+          "SubQuestionUrl": null,
+          "NormalQuestionId": 8522,
+          "NormalQuestionContent": "(A)<U>As</U> a glacier (B)<U>melts</U>, rocks, boulders, trees, and tons of (C)<U>dirt</U> (D)<U>deposit</U>.",
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24876
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24877
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 24878
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24879
+              }
+          ]
+      },
+      {
+          "QuestionId": 8951,
+          "MainQuestionId": null,
+          "MainQuestionContent": null,
+          "MainQuestionUrl": null,
+          "SubQuestionId": null,
+          "SubQuestionContent": null,
+          "SubQuestionUrl": null,
+          "NormalQuestionId": 8423,
+          "NormalQuestionContent": "A silkworm has glands that secrete a liquid that hardens into silk _______ comes into contact with air.",
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "as",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24480
+              },
+              {
+                  "AnswerContent": "when",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 24481
+              },
+              {
+                  "AnswerContent": "that",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24482
+              },
+              {
+                  "AnswerContent": "it",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24483
+              }
+          ]
+      },
+      {
+          "QuestionId": 8890,
+          "MainQuestionId": null,
+          "MainQuestionContent": null,
+          "MainQuestionUrl": null,
+          "SubQuestionId": null,
+          "SubQuestionContent": null,
+          "SubQuestionUrl": null,
+          "NormalQuestionId": 8362,
+          "NormalQuestionContent": "A rat's (A)<U>sharp</U> teeth can gnaw (B)<U>through</U> wood, plaster, (C)<U>or</U> soft (D)<U>metallic</U> such as led.",
+          "NormalQuestionUrl": null,
+          "Answers": [
+              {
+                  "AnswerContent": "A",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24236
+              },
+              {
+                  "AnswerContent": "B",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24237
+              },
+              {
+                  "AnswerContent": "C",
+                  "CorrectAnswer": false,
+                  "Explanation": null,
+                  "AnswerId": 24238
+              },
+              {
+                  "AnswerContent": "D",
+                  "CorrectAnswer": true,
+                  "Explanation": null,
+                  "AnswerId": 24239
+              }
+          ]
+      }
+  ],
+  "pagination": {
+      "TotalQuestions": 848,
+      "TotalPages": 85
+  }
+}

@@ -1,0 +1,30 @@
+.quiz-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.quiz-container h2 {
+  margin-bottom: 20px;
+}
+
+.quiz-container .ant-radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz-container .ant-radio-wrapper {
+  margin-bottom: 10px;
+}
+
+.quiz-container .ant-btn {
+  margin-top: 20px;
+  display: block;
+}
+
+.quiz-container .feedback {
+  margin-top: 20px;
+}

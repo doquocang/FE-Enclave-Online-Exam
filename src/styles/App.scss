@@ -1,3 +1,9 @@
+@import "./variables.scss";
+
 .app-container {
-  background-color: #f5f5f5;
+  background-color: $enclave_white;
+}
+.app-content {
+  // border-right: 1px solid $enclave_green_light;
+  // border-left: 1px solid $enclave_green_light;
 }

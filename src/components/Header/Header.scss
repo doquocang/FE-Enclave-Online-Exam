@@ -1,19 +1,31 @@
+@import "../../styles/_variables";
+
 .header-container {
   .navbar-brand {
-    color: #548f11;
+    color: $enclave_green;
+    font-weight: 600;
   }
   .navbar-nav {
     .nav-link {
       &.active {
-        color: #548f11;
+        color: $enclave_green;
       }
       &.show {
-        color: #548f11;
+        color: $enclave_green;
       }
     }
+    .navbar-header-text {
+      font-weight: 600;
+      color: blue;
+    }
+    // .custom-dropdown-item:hover {
+    //   color: $enclave_black;
+    //   background-color: $enclave_green_light
+    // }
+    // .custom-dropdown-item.selected {
+    //   color: #ffffff;
+    //   background-color: $enclave_green_light
+    // }
   }
-  .navbar-header-text {
-    font-weight: 600;
-    color: #548f11;
-  }
+  
 }

@@ -1,0 +1,390 @@
+{
+    "code": 1000,
+    "message": "Success",
+    "result": [
+        {
+            "QuestionId": 9032,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8504,
+            "NormalQuestionContent": "The (A)<U>common </U>(B)<U>field</U> mouse is about four inches (C)<U>long</U> and has a (D)<U>three-inched</U> tail.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24804
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24805
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24806
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 24807
+                }
+            ]
+        },
+        {
+            "QuestionId": 8709,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8181,
+            "NormalQuestionContent": "The Alexandria Gazette, (A)<U>published</U> daily since 1797, is the (B)<U>oldest</U> regularly published (C)<U>newspapers</U> (D)<U>in</U> the United States.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23512
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23513
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 23514
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23515
+                }
+            ]
+        },
+        {
+            "QuestionId": 8886,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8358,
+            "NormalQuestionContent": "(A)<U>All of</U> the United States Presidents, James Buchanan is the (B)<U>only one</U> (C)<U>who</U> was (D)<U>not married.</U>",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 24220
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24221
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24222
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24223
+                }
+            ]
+        },
+        {
+            "QuestionId": 8521,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 7993,
+            "NormalQuestionContent": "(A)<U>Many of</U> the characters (B)<U>portrayed</U> by writer Joyce Carol Oats (C)<U>is</U> mentally (D)<U>ill</U>.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22760
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22761
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 22762
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22763
+                }
+            ]
+        },
+        {
+            "QuestionId": 8652,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8124,
+            "NormalQuestionContent": "The truck was found ________________an Highway 63.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "to be abandoned ",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23284
+                },
+                {
+                    "AnswerContent": "to be abandoning",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23285
+                },
+                {
+                    "AnswerContent": "abandoned         ",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 23286
+                },
+                {
+                    "AnswerContent": "abandon",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 23287
+                }
+            ]
+        },
+        {
+            "QuestionId": 9128,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8600,
+            "NormalQuestionContent": "One form of mountain glacier that (A)<U>resembles</U> an ice cap in (B)<U>that</U> it flows (C)<U>outward</U> in several directions (D)<U>called</U> an ice field.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 25188
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 25189
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 25190
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 25191
+                }
+            ]
+        },
+        {
+            "QuestionId": 9013,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8485,
+            "NormalQuestionContent": "The Texas Panhandle region, (A)<U>in the</U> northwestern (B)<U>part</U> of the State, produces more wheat, (C)<U>cotten</U>, and grain sorghum than (D)<U>any of</U> other area of Texas.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24728
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24729
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24730
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 24731
+                }
+            ]
+        },
+        {
+            "QuestionId": 9221,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8693,
+            "NormalQuestionContent": "Drying of meats and vegetables is no longer considered one of .................... of preserving food.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": " the ways are useful                       ",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 25560
+                },
+                {
+                    "AnswerContent": "useful ways",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 25561
+                },
+                {
+                    "AnswerContent": " the most useful ways                     ",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 25562
+                },
+                {
+                    "AnswerContent": " rather likes looking ",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 25563
+                }
+            ]
+        },
+        {
+            "QuestionId": 8446,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 7918,
+            "NormalQuestionContent": "Biologists and anthropologists (A)<U>possesses a wealth</U> (B)<U>of evidence</U> to indicate that human beings (C)<U>arose from lower</U> forms of life over a (D)<U>time long period</U>.",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22458
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22459
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 22460
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 22461
+                }
+            ]
+        },
+        {
+            "QuestionId": 8848,
+            "MainQuestionId": null,
+            "MainQuestionContent": null,
+            "MainQuestionUrl": null,
+            "SubQuestionId": null,
+            "SubQuestionContent": null,
+            "SubQuestionUrl": null,
+            "NormalQuestionId": 8320,
+            "NormalQuestionContent": "Traditionally, ethnographers and linguistics (A)<U>have paid</U> little attention to cultural interpretations (B)given to silence, (C)<U>or to</U> the types of social contexts (D)<U>in which tends</U> to occur",
+            "NormalQuestionUrl": null,
+            "Answers": [
+                {
+                    "AnswerContent": "A",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24068
+                },
+                {
+                    "AnswerContent": "B",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24069
+                },
+                {
+                    "AnswerContent": "C",
+                    "CorrectAnswer": false,
+                    "Explanation": null,
+                    "AnswerId": 24070
+                },
+                {
+                    "AnswerContent": "D",
+                    "CorrectAnswer": true,
+                    "Explanation": null,
+                    "AnswerId": 24071
+                }
+            ]
+        }
+    ],
+    "pagination": {
+        "TotalQuestions": 848,
+        "TotalPages": 85
+    }
+}
