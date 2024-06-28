@@ -5,7 +5,7 @@
   margin: 0 auto;
   padding-bottom: 20vh;
   .study-questions-lesson {
-    padding-top: 3vh;
+    padding-top: 3%;
     font-size: 1.35em;
 
     @media (max-width: 900px) {
@@ -17,13 +17,13 @@
     }
   }
   .study-question-container {
-    padding-bottom: 5vh;
+    padding-bottom: 5%;
     .study-question-main-nor-url {
-      padding-bottom: 4vh;
+      padding-bottom: 4%;
     }
     .study-question-direction {
       font-style: italic;
-      padding-bottom: 2vh;
+      padding-bottom: 2%;
     }
     .study-question-content {
       .study-question-wrapper {
@@ -32,20 +32,73 @@
         .study-question-quiz {
           .study-question-quiz-titles {
             white-space: normal;
-            padding-top: 2vh;
+            padding-top: 3%;
+            padding-bottom: 2%;
             font-size: 0.8rem;
           }
           .study-question-quiz-answers-wrapper {
-            .study-question-quiz-answers {
-              width: 95%;
-              height: auto;
-              padding-top: 2vh;
-              padding-bottom: 2vh;
-              .study-question-quiz-answers-content {
-                width: 100%;
-                text-align: left;
-                white-space: normal;
-                font-size: 0.8rem;
+            .study-question-quiz-answers-group {
+              //custome override
+              .ant-radio-button-wrapper:not(:first-child)::before {
+                content: none; // This removes the line
+              }
+              //hover
+              .ant-radio-button-wrapper:hover {
+                border-color: $enclave_green_light;
+                color: $enclave_green_light;
+              }
+              //correct-answer:
+              //checked
+              .ant-radio-button-wrapper-checked.correct-answer:not(.ant-radio-button-wrapper-disabled) {
+                color: $enclave_white_light;
+                background: $enclave_green_light;
+                border-color: $enclave_green_light;
+              }
+              //diable hover when checked
+              .ant-radio-button-wrapper-checked.correct-answer:not(.ant-radio-button-wrapper-disabled):hover {
+                background: $enclave_green_light;
+                border-color: $enclave_green_light;
+                color: $enclave_white_light;
+              }
+
+              //wrong answer:
+              .ant-radio-button-wrapper.wrong-answer:hover {
+                border-color: $enclave_red_light;
+                color: $enclave_red_light;
+              }
+              .ant-radio-button-wrapper-checked.wrong-answer:not(.ant-radio-button-wrapper-disabled) {
+                color: $enclave_white_light;
+                background: $enclave_red_light;
+                border-color: $enclave_red_light;
+              }
+              //disable hover when wrong answer is checked
+              .ant-radio-button-wrapper-checked.wrong-answer:not(.ant-radio-button-wrapper-disabled):hover {
+                background: $enclave_red_light;
+                border-color: $enclave_red_light;
+                color: $enclave_white_light;
+              }
+
+              //style
+              .study-question-quiz-answers {
+                width: 95%;
+                height: auto;
+                padding-top: 1.5%;
+                padding-bottom: 1.5%;
+                border: 1px solid $enclave_border;
+                border-radius: 8px;
+                .study-question-quiz-answers-content {
+                  width: 100%;
+                  text-align: left;
+                  white-space: normal;
+                  font-size: 0.8rem;
+                  //custome line
+                  line-height: 2;
+                  .study-question-quiz-answers-icon {
+                    margin-left: auto;
+                    font-size: 150%;
+                    padding-left: 3vh;
+                  }
+                }
               }
             }
           }
@@ -53,6 +106,8 @@
       }
     }
   }
+
+  //responsive
   .study-question-pagination {
     .ant-pagination-item {
       font-size: 1em;

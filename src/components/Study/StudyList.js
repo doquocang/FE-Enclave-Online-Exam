@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Menu } from "antd";
 import { HomeOutlined } from "@ant-design/icons";
 
-import response from "./test2.json";
+//api
 
 import responseSearch from "./test.json";
+
+import { fetchCategoriesWebApi } from "../../services/UserService";
 
 //redux
 import { useSelector } from "react-redux";
@@ -17,9 +19,11 @@ const StudyList = () => {
   const [menuData, setMenuData] = useState([]);
   //using redux
   const SearchValue = useSelector((state) => state.studySearch.value);
-
+  
   useEffect(() => {
     const fetchData = async () => {
+      let token = localStorage.getItem("token");
+      const response = await fetchCategoriesWebApi(token);
       if (SearchValue) {
         setMenuData(responseSearch.result);
       } else {

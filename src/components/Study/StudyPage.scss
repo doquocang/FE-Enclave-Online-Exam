@@ -84,3 +84,9 @@
 .question-content {
   background-color: $enclave_white_light;
 }
+
+//overide menu color
+.ant-menu-light .ant-menu-submenu-selected > .ant-menu-submenu-title,
+.ant-menu-light > .ant-menu .ant-menu-submenu-selected > .ant-menu-submenu-title {
+  color: $enclave_green;
+}

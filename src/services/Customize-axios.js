@@ -4,8 +4,9 @@ axios.defaults.timeout = 10 * 1000;
 
 const instance = axios.create({
   // baseURL: "http://172.16.75.32:8080",
-  baseURL: "http://172.16.75.43:8082/",
-  // baseURL: "https://dummyjson.com",3
+  baseURL: "http://172.16.75.43:8080/", 
+  // baseURL: "https://e5a3-203-210-244-187.ngrok-free.app/",
+  // baseURL: "http://localhost:8085/",
 });
 
 instance.interceptors.response.use(

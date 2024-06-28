@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import { SearchOutlined } from "@ant-design/icons";
-import axios from "axios";
 
 import { Input, AutoComplete, Space } from "antd";
 
-import response from "./test.json";
+// import response from "./test.json";
 
 import { useDispatch } from "react-redux";
 import { updateValue } from '../../redux/StudySearch/actions';
+
+//api
+import { searchCategoriesApi } from "../../services/UserService";
 
 const { Search } = Input;
 
@@ -45,7 +47,8 @@ const SearchBox = () => {
     }
 
     try {
-      // const response = await axios.get(`your-api-url?search=${value}`);
+      let token = localStorage.getItem("token");
+      const response = await searchCategoriesApi(token, value);
       const searchResults = extractSubSections(response.result);
       setOptions(searchResults);
     } catch (error) {

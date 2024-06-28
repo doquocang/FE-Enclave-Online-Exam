@@ -1,29 +1,34 @@
 import { useEffect, useState } from "react";
-import { Flex, Card, Divider, Button, Pagination } from "antd";
+import { Flex, Card, Divider, Image, Pagination, Radio } from "antd";
 import "./StudyQuestion.scss";
 import parse from "html-react-parser";
+import { CheckCircleFilled, CloseCircleFilled } from "@ant-design/icons";
+
+//api
+import { fetchQuestionsApi, fetchImageApi } from "../../services/UserService";
 
 //pagination
 import queryString from "query-string";
 import { useLocation, useNavigate } from "react-router-dom";
 
-//mock data
-import response from "./json/coanh/page1.json";
-import response2 from "./json/coanh/page2.json";
-import response3 from "./json/coanh/page3.json";
+import jsonData from "./test2.json";
 
 import audioFile from "../../assets/Audio/test1.mp3";
 
 const StudyQuestion = (props) => {
   const [questionData, setQuestionData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-
+  const [totalPage, setTotalPage] = useState(0);
+  const [selectedAnswers, setSelectedAnswers] = useState([]);
+  const [isHavingImage, setIsHavingImage] = useState(false);
+  
+  const { selectedSubQuestion } = props;
   const location = useLocation();
   const navigate = useNavigate();
+  const queryParams = queryString.parse(location.search);
 
   const onChangePagination = (pageNumber) => {
     // Cập nhật pageNumber trong URL mà không cần tải lại trang
-    const queryParams = queryString.parse(location.search);
     const newQueryParams = {
       ...queryParams,
       pageNumber: pageNumber,
@@ -31,16 +36,55 @@ const StudyQuestion = (props) => {
     navigate(`?${queryString.stringify(newQueryParams, { sort: false })}`);
   };
 
+  const onChangeQuestion = (e) => {
+    const answer = e.target.value;
+    if (!selectedAnswers.find((a) => a.AnswerId === answer.AnswerId)) {
+      setSelectedAnswers([...selectedAnswers, answer]);
+    }
+  };
+
+  const findSubSectionPath = (data, subSectionId) => {
+    const search = (children, path) => {
+      for (const child of children) {
+        const newPath = [
+          ...path,
+          child.Name ||
+            child.SubjectName ||
+            child.CategoryName ||
+            child.MainSectionName ||
+            child.SubSectionName,
+        ];
+        if (child.SubSectionId === subSectionId) {
+          return newPath.join(" - ");
+        }
+        if (child.Children) {
+          const result = search(child.Children, newPath);
+          if (result) return result;
+        }
+      }
+    };
+    return search(data.result, []);
+  };
+
   useEffect(() => {
     const queryParams = queryString.parse(location.search);
     const { subSectionId, pageNumber, pageSize } = queryParams;
     setCurrentPage(parseInt(pageNumber, 10));
 
-    setQuestionData(response.result);
+    const fetchData = async () => {
+      let token = localStorage.getItem("token");
+      const response = await fetchQuestionsApi(
+        token,
+        subSectionId,
+        pageNumber,
+        pageSize
+      );
+      setTotalPage(response.pagination.TotalPages);
+      setQuestionData(response.result);
+    };
+    fetchData();
 
-    if (pageNumber === "2") setQuestionData(response2.result);
-
-    if (pageNumber === "3") setQuestionData(response3.result);
+    
 
     window.scrollTo(0, 0);
   }, [location.search]);
@@ -52,7 +96,10 @@ const StudyQuestion = (props) => {
   return (
     <Flex className="study-questions" vertical gap="large">
       <Divider className="study-questions-lesson" orientation="left">
-        English - TOEIC Test - Learning - Part 1
+        {findSubSectionPath(
+          jsonData,
+          parseInt(selectedSubQuestion.subSectionId, 10)
+        )}
       </Divider>
       {/* tất cả direction lẫn câu hỏi + đáp án */}
       {questionData.map((item, index) => {
@@ -80,7 +127,7 @@ const StudyQuestion = (props) => {
                     >
                       <source src={audioFile} type="audio/mp3" />
                     </audio>
-                    video
+                    {/* video */}
                   </Flex>
                 )}
               </>
@@ -114,9 +161,14 @@ const StudyQuestion = (props) => {
                         <div className="study-question-quiz-titles">
                           {parse(`${item.SubQuestionContent}`)}
                         </div>
+                        {item.isHavingImage && setIsHavingImage(true)}
                         {item.SubQuestionUrl && (
                           <Flex className="study-question-quiz-url" vertical>
-                            {/* !!!callAPI */} Anh
+                            {/* !!!callAPI anh */}
+                            <Image
+                              width={200}
+                              src=""
+                            />
                           </Flex>
                         )}
                       </>
@@ -127,21 +179,46 @@ const StudyQuestion = (props) => {
                   <Flex
                     className="study-question-quiz-answers-wrapper"
                     vertical
-                    gap="small"
-                    align="center"
                   >
                     {/* "AnswerContent" */}
-                    {item.Answers.map((answer, answerIndex) => (
-                      <Button
-                        key={answerIndex}
-                        className="study-question-quiz-answers"
-                        block
-                      >
-                        <Flex className="study-question-quiz-answers-content">
-                          {answer.AnswerContent}
-                        </Flex>
-                      </Button>
-                    ))}
+                    <Radio.Group
+                      className="study-question-quiz-answers-group custom-radio-button"
+                      onChange={onChangeQuestion}
+                      size="large"
+                      buttonStyle="solid"
+                    >
+                      <Flex vertical gap="middle" align="center">
+                        {item.Answers.map((answer, answerIndex) => (
+                          <Radio.Button
+                            className={`study-question-quiz-answers ${
+                              selectedAnswers &&
+                              selectedAnswers.some(
+                                (a) => a.AnswerId === answer.AnswerId
+                              )
+                                ? answer.CorrectAnswer
+                                  ? "correct-answer"
+                                  : "wrong-answer"
+                                : ""
+                            }`}
+                            value={answer}
+                            key={answer.AnswerId}
+                          >
+                            <Flex className="study-question-quiz-answers-content">
+                              {answer.AnswerContent}
+                              {selectedAnswers &&
+                                selectedAnswers.some(
+                                  (a) => a.AnswerId === answer.AnswerId
+                                ) &&
+                                (answer.CorrectAnswer ? (
+                                  <CheckCircleFilled className="study-question-quiz-answers-icon" />
+                                ) : (
+                                  <CloseCircleFilled className="study-question-quiz-answers-icon" />
+                                ))}
+                            </Flex>
+                          </Radio.Button>
+                        ))}
+                      </Flex>
+                    </Radio.Group>
                   </Flex>
                 </Card>
               </Flex>
@@ -156,7 +233,8 @@ const StudyQuestion = (props) => {
           showQuickJumper
           showSizeChanger={false}
           current={currentPage}
-          total={85}
+          total={totalPage}
+          pageSize={10}
           onChange={onChangePagination}
         />
       </Flex>
